@@ -1,24 +1,24 @@
-header, main, footer{
+.container{
   display: inline-block;
   width: 1000px;
   margin: 0 calc((100% - 1000px) / 2);
  }
-img{
+.logo{
   float: left;
 }
-nav{
+.main-nav{
   float: right;
 }
-nav > a{
+.main-nav > .link{
   color: #333;
   text-decoration: none;
   font-size: 20px;
   margin-left: 50px;
 }
-nav > a:first-child{
+.main-nav > .link:first-child{
   margin: 0;
 }
-nav > a:hover{
+.main-nav > .link:hover{
   background-color: yellow;
   text-decoration: underline;
   color: #649;
@@ -27,19 +27,19 @@ nav > a:hover{
 }
 
 /* Main style */
-main{
+.hero{
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
 /* Footer style */
-div{
+.socials{
   float: left;
 }
-div > a{
-  font-size: 18px;
+.socials > a{
+  font-size: 25px;
   color: rgb(221, 221, 221);
 }
-p{
+.copyright{
   float: right;
 }
