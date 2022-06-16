@@ -41,6 +41,14 @@
   font-size: 60px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.main-title::after{
+  content: '';
+  display: block;
+  width: 120px;
+  height: 3px;
+  background-color: #649;
+  margin-top: 10px;
+}
 .main-title > span{
   font-weight: 100;
 } 
